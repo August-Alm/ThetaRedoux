@@ -89,15 +89,3 @@ let main _ =
      [fact (end nat)]"
 
   0
-
-(*
-PatientCharacteristicsNameOfInitials -> "Name or initials", not "Initials"
-
-Case narrative ->  Describe suspected adverse reaction(s).
-
-"Drug role" ???
-
-"Drug form" needs adding!
-DrugInformationsDosageInformationsPharmaceuticalDoseForm
-before "Dosage"
-*)

@@ -94,7 +94,7 @@ The calculus allows encoding also dependent function types:
 Πx:a.(b x) := θf.λx.[(f [x a]) (b x)]
 ```
 A trivial but still interesting example is `any := θt.t`.
-Every term has that type.
+Every term has that type. Types can surely be very exotic.
 
 ### Recursive extension
 
