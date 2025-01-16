@@ -45,7 +45,11 @@ variable renaming (alpha equivalence), the above reduction rules
 
 We have not fixed a reduction order. The interpreter loosely
 follows a call-by-need strategy (though what that exactly means
-in the present context is unclear).
+in the present context is unclear). One part of the reduction
+order is fixed however: (6) can only apply if its left hand side
+is otherwize noralized. In particular, if either `a` or `b` is
+a theta abstraction, then (4) would take prevalence, and if either
+is a lambdam then (5) would take precedence.
 
 ### Informal semantics
 
